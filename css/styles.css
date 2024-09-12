@@ -1,0 +1,104 @@
+body {
+    font-family: "Overpass", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.navbar {
+    width: 100%;
+    background-color: #ffffff;
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar-icon img {
+    width: 100px;
+    height: 100px;
+}
+
+.profile-image img {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    margin-top: 700px;
+}
+
+.bio {
+    margin-top: 20px;
+}
+
+.bio h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.bio p {
+    font-size: 16px;
+    color: #555;
+    margin: 15px;
+}
+
+/* Web Experience Section */
+.web-experience {
+    margin-top: 40px;
+}
+
+.web-experience h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.project {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 15px;
+}
+
+.project-info {
+    flex: 1;
+    text-align: left;
+    padding-right: 20px;
+}
+
+.project-info h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.project-info p {
+    font-size: 16px;
+    color: #555;
+}
+
+.project-image {
+    flex: 1;
+}
+
+.project-image img {
+    width: 100%;
+    max-width: 250px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    object-fit: cover;
+}
